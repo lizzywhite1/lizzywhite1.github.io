@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Lizzy's ML Blog"
 title_separator          : "-"
 name                     : &name "Elizabeth (Lizzy) White"
 description              : &description "personal description"
@@ -23,11 +23,11 @@ repository               : "lizzywhite1/lizzywhite1.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Elizabeth (Lizzy) White"
+  pronouns         : "she/her" 
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "London, United Kingdom"
+  employer         : "University of Warwick"
   uri              : # URL
   email            : "none@example.org" 
 
