@@ -1,0 +1,20 @@
+{% comment %}
+  Include for interactive Plotly plots
+  Usage: {% include interactive_plot.html plot_file="path/to/plot.html" width="800" height="600" %}
+{% endcomment %}
+
+<div class="interactive-plot-container" style="text-align: center; margin: 20px 0;">
+  <iframe 
+    src="{{ site.baseurl }}/{{ include.plot_file }}" 
+    width="{{ include.width | default: '800' }}" 
+    height="{{ include.height | default: '600' }}"
+    frameborder="0"
+    scrolling="no"
+    style="border: 1px solid #ddd; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  </iframe>
+  {% if include.caption %}
+    <p class="plot-caption" style="margin-top: 10px; font-style: italic; color: #666;">
+      {{ include.caption }}
+    </p>
+  {% endif %}
+</div> 
