@@ -1,5 +1,7 @@
 ---
-title: "Math Delimiters Test"
+title: 'test page'
+date: 2025-08-25
+permalink: /posts/2025/08/test/
 ---
 
 # Testing Math Delimiters
