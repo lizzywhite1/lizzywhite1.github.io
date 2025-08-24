@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Lizzy's ML Blog"
+title                    : "Lizzy's Statistics & ML Blog"
 title_separator          : "-"
 name                     : &name "Elizabeth (Lizzy) White"
 description              : &description "personal description"
@@ -217,6 +217,10 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: false
+  math_engine_opts:
+    delimiters:
+      inline: [['$', '$'], ['\\(', '\\)']]
+      block: [['$$', '$$'], ['\\[', '\\]']]
 
 
 # These settings control the types of collections used by the template
